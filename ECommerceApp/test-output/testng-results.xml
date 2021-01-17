@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="136565" started-at="2021-01-06T15:14:29 IST" finished-at="2021-01-06T15:16:46 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="136565" started-at="2021-01-06T15:14:29 IST" finished-at="2021-01-06T15:16:46 IST">
+      <class name="testscripts.TC001">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC001@67205a84]" name="openApp" is-config="true" duration-ms="22462" started-at="2021-01-06T15:14:29 IST" finished-at="2021-01-06T15:14:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="loginToApp(java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC001@67205a84]" name="loginToApp" is-config="true" duration-ms="10921" started-at="2021-01-06T15:14:52 IST" finished-at="2021-01-06T15:15:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nameishemanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="testAddingProductToKart()[pri:0, instance:testscripts.TC001@67205a84]" name="testAddingProductToKart" duration-ms="20968" started-at="2021-01-06T15:15:03 IST" description="Test case to verify if the added product is displayed in ODP page" finished-at="2021-01-06T15:15:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddingProductToKart -->
+        <test-method status="PASS" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:testscripts.TC001@67205a84]" name="logoutFromApp" is-config="true" duration-ms="2918" started-at="2021-01-06T15:15:24 IST" finished-at="2021-01-06T15:15:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddingProductToKart status=SUCCESS method=TC001.testAddingProductToKart()[pri:0, instance:testscripts.TC001@67205a84] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testscripts.TC001@67205a84]" name="closeApp" is-config="true" duration-ms="1158" started-at="2021-01-06T15:15:27 IST" finished-at="2021-01-06T15:15:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscripts.TC001 -->
+      <class name="testscripts.TC002">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC002@7d0587f1]" name="openApp" is-config="true" duration-ms="17229" started-at="2021-01-06T15:15:28 IST" finished-at="2021-01-06T15:15:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="loginToApp(java.lang.String, java.lang.String)[pri:0, instance:testscripts.TC002@7d0587f1]" name="loginToApp" is-config="true" duration-ms="8918" started-at="2021-01-06T15:15:45 IST" finished-at="2021-01-06T15:15:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nameishemanth@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="testToDeletAddedProductFromODP()[pri:0, instance:testscripts.TC002@7d0587f1]" name="testToDeletAddedProductFromODP" duration-ms="46151" started-at="2021-01-06T15:15:54 IST" description="Test case to verify if the deleted product is not displayed in ODP page" finished-at="2021-01-06T15:16:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToDeletAddedProductFromODP -->
+        <test-method status="PASS" signature="logoutFromApp(org.testng.ITestResult)[pri:0, instance:testscripts.TC002@7d0587f1]" name="logoutFromApp" is-config="true" duration-ms="4625" started-at="2021-01-06T15:16:40 IST" finished-at="2021-01-06T15:16:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testToDeletAddedProductFromODP status=SUCCESS method=TC002.testToDeletAddedProductFromODP()[pri:0, instance:testscripts.TC002@7d0587f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testscripts.TC002@7d0587f1]" name="closeApp" is-config="true" duration-ms="1042" started-at="2021-01-06T15:16:45 IST" finished-at="2021-01-06T15:16:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testscripts.TC002 -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
